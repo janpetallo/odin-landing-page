@@ -82,7 +82,7 @@ button {
     font-size: 18px;
     font-weight: 800;
     padding: 8px 16px;
-    border-radius: px;
+    border-radius: 10px;
 }
 
 .information {
@@ -103,7 +103,7 @@ button {
     justify-content: center;
     gap: 32px;
     flex-wrap: wrap;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .info {
@@ -113,6 +113,32 @@ button {
 .subset img {
     width: 150px;
     height: 150px;
+}
+
+.qoutations {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    
+    padding: 100px 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.qoute {
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content:flex-end;
 }
 
 
