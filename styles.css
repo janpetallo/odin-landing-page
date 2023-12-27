@@ -4,6 +4,7 @@ body {
     display :flex;
     flex-direction: column;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 .top {
@@ -81,8 +82,42 @@ button {
     font-size: 18px;
     font-weight: 800;
     padding: 8px 16px;
-    border-radius: 10px;
+    border-radius: px;
 }
+
+.information {
+    text-align: center;
+    padding: 0 200px;
+    
+}
+
+.title-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 50px 0;
+}
+
+.subset {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.subset img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
 
 
 
